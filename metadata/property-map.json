@@ -1,0 +1,28 @@
+{
+  "repo": "watch-chain-wallet-mark",
+  "language": "C",
+  "category": "Blockchain tooling",
+  "goal": "Implement a C blockchain tooling project for wallet incremental indexing, using append-only fixtures and checkpoint recovery checks.",
+  "weights": {
+    "signal": 2,
+    "slack": 1,
+    "confidence": 2,
+    "drag": 2
+  },
+  "thresholds": {
+    "ship": 169,
+    "watch": 122
+  },
+  "properties": [
+    "raising signal cannot reduce score",
+    "raising drag cannot improve score",
+    "lane labels must match configured thresholds",
+    "golden fixture ids must remain unique"
+  ],
+  "fixture_files": [
+    "fixtures/golden/scoreboard.csv",
+    "fixtures/golden/lane-matrix.csv",
+    "fixtures/fuzz/mutations.csv",
+    "fixtures/fuzz/boundary-cases.jsonl"
+  ]
+}

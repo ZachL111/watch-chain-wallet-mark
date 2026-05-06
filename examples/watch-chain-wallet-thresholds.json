@@ -1,0 +1,17 @@
+{
+  "repo": "watch-chain-wallet-mark",
+  "thresholds": {
+    "signal": 2,
+    "slack": 1,
+    "confidence": 2,
+    "drag": 2,
+    "ship": 169,
+    "watch": 122
+  },
+  "terms": [
+    "event finality",
+    "nonce pressure",
+    "settlement risk",
+    "proof depth"
+  ]
+}
